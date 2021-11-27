@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car`s Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- Loader -->
+    <div class="loader">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <div class="header">
+          <img src="./assets/logo.svg" alt="Logo" class="header-logo" />
+          <nav class="header-nav">
+            <ul>
+              <li class="header-navlink">
+                <a href="index.html"> Home </a>
+              </li>
+              <li class="header-navlink">
+                <a href="explore.html"> Explore </a>
+              </li>
+              <li class="header-navlink">
+                <a href="showroom.html"> Showroom </a>
+              </li>
+              <li class="header-navlink">
+                <a href="credit.html"> Credit Simulation </a>
+              </li>
+              <li class="header-navlink">
+                <a href="contact.html"> Contact Us </a>
+              </li>
+              <li class="header-navlink">
+                Page <img src="./assets/arrow-down.svg" alt="Arrow Down" />
+              </li>
+            </ul>
+          </nav>
+          <div class="header-login">
+            <div class="header-userphoto"></div>
+            <a href="login.html"> <button class="btn">Login</button> </a>
+            <a
+              href="javascript:void(0);"
+              class="icon-burger"
+              onclick="myFunction()"
+            >
+              ☰
+            </a>
+          </div>
+        </div>
+        <div id="myLinks">
+          <a href="index.html"> Home </a>
+
+          <a href="explore.html"> Explore </a>
+
+          <a href="showroom.html"> Showroom </a>
+
+          <a href="credit.html"> Credit Simulation </a>
+
+          <a href="contact.html"> Contact Us </a>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Main -->
+    <main class="main">
+      <!-- Login -->
+      <div class="login">
+        <div class="container">
+          <form class="login-form">
+            <div class="login-input">
+              <label for="email">Email Address</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Input your email"
+                required
+              />
+            </div>
+            <div class="login-input">
+              <label for="message">Password</label>
+              <input
+                type="password"
+                placeholder="●●●●●●"
+                minlength="6"
+                required
+              />
+            </div>
+            <button class="btn login-btn">Submit</button>
+          </form>
+        </div>
+      </div>
+      <!-- End Login -->
+    </main>
+    <!-- End Main -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-box">
+          <img src="./assets/logo.svg" alt="Logo" />
+          <p>
+            OurStudio is a digital agency UI / UX Design and Website Development
+            located in Ohio, United States of America
+          </p>
+          <p class="copyright">
+            This website was created to fulfill Web Technology module’s
+            requirements and does not represent an actual company or service
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+  </body>
+</html>

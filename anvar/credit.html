@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car`s Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- Loader -->
+    <div class="loader">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <div class="header">
+          <img src="./assets/logo.svg" alt="Logo" class="header-logo" />
+          <nav class="header-nav">
+            <ul>
+              <li class="header-navlink">
+                <a href="index.html"> Home </a>
+              </li>
+              <li class="header-navlink">
+                <a href="explore.html"> Explore </a>
+              </li>
+              <li class="header-navlink">
+                <a href="showroom.html"> Showroom </a>
+              </li>
+              <li class="header-navlink">
+                <a href="credit.html"> Credit Simulation </a>
+              </li>
+              <li class="header-navlink">
+                <a href="contact.html"> Contact Us </a>
+              </li>
+              <li class="header-navlink">
+                Page <img src="./assets/arrow-down.svg" alt="Arrow Down" />
+              </li>
+            </ul>
+          </nav>
+          <div class="header-login">
+            <div class="header-userphoto"></div>
+            <a href="login.html"> <button class="btn">Login</button> </a>
+            <a
+              href="javascript:void(0);"
+              class="icon-burger"
+              onclick="myFunction()"
+            >
+              ☰
+            </a>
+          </div>
+        </div>
+        <div id="myLinks">
+          <a href="index.html"> Home </a>
+
+          <a href="explore.html"> Explore </a>
+
+          <a href="showroom.html"> Showroom </a>
+
+          <a href="credit.html"> Credit Simulation </a>
+
+          <a href="contact.html"> Contact Us </a>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Main -->
+    <main class="main">
+      <!-- Showcase -->
+      <div class="showcase">
+        <div class="container center">
+          <h2 class="showcase-text">Credit Simulation</h2>
+          <h4>Home > Credit Simulation</h4>
+        </div>
+      </div>
+      <!-- End Showcase -->
+
+      <!-- Credit -->
+      <div class="credit">
+        <div class="container">
+          <div class="credit-heading">Credits</div>
+          <a class="credit-img" href="https://youtube.com">
+            <img src="./assets/video.png" alt="Video Placeholder" />
+          </a>
+          <div class="credit-text">
+            <h3 class="credit-heading">Description</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+          <form class="credit-form">
+            <h3 class="credit-heading">Loan Calculator</h3>
+            <p>
+              What a brand new resource, You can try our resource and explore
+              how it works
+            </p>
+            <div class="credit-input">
+              <label for="price">Car Price ($)</label>
+              <input
+                type="number"
+                required
+                id="price"
+                placeholder="Input your price car"
+              />
+            </div>
+            <div class="credit-input">
+              <label for="price">Interest Rate (%)</label>
+              <input
+                type="number"
+                required
+                id="interest"
+                placeholder="Input your interest rate"
+              />
+            </div>
+            <div class="credit-input">
+              <label for="price">Periode Month ($)</label>
+              <input
+                type="number"
+                required
+                id="month"
+                placeholder="Input your period month"
+              />
+            </div>
+            <div class="credit-input">
+              <label for="price">Down Payment</label>
+              <input
+                type="number"
+                required
+                id="payment"
+                placeholder="Input your down payment"
+              />
+            </div>
+            <button class="btn calc">Calculate</button>
+          </form>
+        </div>
+      </div>
+      <!-- End Credit -->
+
+      <!-- CTA -->
+      <div class="cta">
+        <div class="container">
+          <h3 class="cta-heading">Subscribe Our News Letter</h3>
+          <p class="cta-subtext">
+            You can read our news letter and get free knowledge
+          </p>
+          <form class="cta-form">
+            <div class="cta-input">
+              <label for="name">Your Name</label>
+              <input type="text" placeholder="Input your name" />
+            </div>
+            <div class="cta-input">
+              <label for="name">Your Email</label>
+              <input type="email" placeholder="Input your email" />
+            </div>
+            <button class="btn">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <!-- END CTA -->
+    </main>
+    <!-- End Main -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-box">
+          <img src="./assets/logo.svg" alt="Logo" />
+          <p>
+            OurStudio is a digital agency UI / UX Design and Website Development
+            located in Ohio, United States of America
+          </p>
+          <p class="copyright">
+            This website was created to fulfill Web Technology module’s
+            requirements and does not represent an actual company or service
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+    <script src="credit.js"></script>
+  </body>
+</html>

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car`s Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- Loader -->
+    <div class="loader">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <div class="header">
+          <img src="./assets/logo.svg" alt="Logo" class="header-logo" />
+          <nav class="header-nav">
+            <ul>
+              <li class="header-navlink">
+                <a href="index.html"> Home </a>
+              </li>
+              <li class="header-navlink">
+                <a href="explore.html"> Explore </a>
+              </li>
+              <li class="header-navlink">
+                <a href="showroom.html"> Showroom </a>
+              </li>
+              <li class="header-navlink">
+                <a href="credit.html"> Credit Simulation </a>
+              </li>
+              <li class="header-navlink">
+                <a href="contact.html"> Contact Us </a>
+              </li>
+              <li class="header-navlink">
+                Page <img src="./assets/arrow-down.svg" alt="Arrow Down" />
+              </li>
+            </ul>
+          </nav>
+          <div class="header-login">
+            <div class="header-userphoto"></div>
+            <a href="login.html"> <button class="btn">Login</button> </a>
+            <a
+              href="javascript:void(0);"
+              class="icon-burger"
+              onclick="myFunction()"
+            >
+              ☰
+            </a>
+          </div>
+        </div>
+        <div id="myLinks">
+          <a href="index.html"> Home </a>
+
+          <a href="explore.html"> Explore </a>
+
+          <a href="showroom.html"> Showroom </a>
+
+          <a href="credit.html"> Credit Simulation </a>
+
+          <a href="contact.html"> Contact Us </a>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Main -->
+    <main class="main">
+      <!-- Showcase -->
+      <div class="showcase">
+        <div class="container center">
+          <h2 class="showcase-text">Explore</h2>
+          <h4>Home > Explore</h4>
+        </div>
+      </div>
+      <!-- End Showcase -->
+
+      <!-- Search -->
+      <div class="search">
+        <div class="container">
+          <div class="search-first">
+            <select class="dropdown">
+              <option value="">Make</option>
+              <option value="0">Germany</option>
+              <option value="1">Italy</option>
+              <option value="2">France</option>
+              <option value="3">Sweden</option>
+            </select>
+            <select class="dropdown">
+              <option value="">Model</option>
+              <option value="0">Sedan</option>
+              <option value="1">Cuv</option>
+              <option value="2">Roadster</option>
+              <option value="3">Cabriolet</option>
+            </select>
+            <select class="dropdown">
+              <option value="">Condition</option>
+              <option value="0">New</option>
+              <option value="1">Almost New</option>
+              <option value="2">Not bad</option>
+              <option value="3">Old</option>
+            </select>
+            <select class="dropdown">
+              <option value="">Transmission</option>
+              <option value="0">Transmission</option>
+              <option value="1">Transmission</option>
+              <option value="2">Transmission</option>
+              <option value="3">Transmission</option>
+            </select>
+          </div>
+          <div class="search-second">
+            <select class="dropdown">
+              <option value="">Body</option>
+              <option value="0">Big</option>
+              <option value="1">Large</option>
+              <option value="2">Middle</option>
+              <option value="3">Small</option>
+            </select>
+            <select class="dropdown">
+              <option value="">Drive</option>
+              <option value="0">200 km/h</option>
+              <option value="1">180 km/h</option>
+              <option value="2">160 km/h</option>
+              <option value="3">150 km/h</option>
+            </select>
+            <select class="dropdown">
+              <option value="">Fuel Type</option>
+              <option value="0">Electric</option>
+              <option value="1">Gaz</option>
+              <option value="2">Petrol</option>
+              <option value="3">Metan</option>
+            </select>
+            <select class="dropdown">
+              <option value="">Color</option>
+              <option value="0">Gold</option>
+              <option value="1">Black</option>
+              <option value="2">White</option>
+              <option value="3">Space Gray</option>
+            </select>
+          </div>
+          <div class="search-input">
+            <div class="search-inputform">
+              <input type="text" placeholder="ex. Tesla" />
+              <button class="btn">Search</button>
+            </div>
+            <div class="search-btns">
+              <span class="active">All (100)</span>
+              <span>New (40)</span>
+              <span>Used (60)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Search -->
+
+      <!-- Cards -->
+      <div class="cards">
+        <div class="container">
+          <h3 class="cards-heading">Tesla</h3>
+          <div class="card-box">
+            <div class="cards-content">
+              <h5 class="cards-result-text">
+                We'he found 20 results for "Tesla"
+              </h5>
+              <div class="card">
+                <img
+                  src="https://images.unsplash.com/photo-1561580125-028ee3bd62eb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+                  alt="Tesla Picuture"
+                  class="card-img"
+                />
+                <div class="card-info">
+                  <p class="card-name">Tesla</p>
+                  <p class="card-model">Model S (new)</p>
+                  <div class="card-descbox">
+                    <div class="card-desc">
+                      <span>Engine</span>
+                      <p>2000cc</p>
+                    </div>
+                    <div class="card-desc">
+                      <span>Type of fuel</span>
+                      <p>Electric</p>
+                    </div>
+                    <div class="card-desc">
+                      <span>Transmission</span>
+                      <p>Automatic</p>
+                    </div>
+                  </div>
+                  <div class="card-price">
+                    <p>$120000</p>
+                    <a href="car.html">
+                      <a href="car.html">
+                        <button class="btn">Details</button>
+                      </a>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  src="https://images.unsplash.com/photo-1561580125-028ee3bd62eb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+                  alt="Tesla Picuture"
+                  class="card-img"
+                />
+                <div class="card-info">
+                  <p class="card-name">Tesla</p>
+                  <p class="card-model">Model S (new)</p>
+                  <div class="card-descbox">
+                    <div class="card-desc">
+                      <span>Engine</span>
+                      <p>2000cc</p>
+                    </div>
+                    <div class="card-desc">
+                      <span>Type of fuel</span>
+                      <p>Electric</p>
+                    </div>
+                    <div class="card-desc">
+                      <span>Transmission</span>
+                      <p>Automatic</p>
+                    </div>
+                  </div>
+                  <div class="card-price">
+                    <p>$120000</p>
+                    <a href="car.html">
+                      <button class="btn">Details</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  src="https://images.unsplash.com/photo-1561580125-028ee3bd62eb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+                  alt="Tesla Picuture"
+                  class="card-img"
+                />
+                <div class="card-info">
+                  <p class="card-name">Tesla</p>
+                  <p class="card-model">Model S (new)</p>
+                  <div class="card-descbox">
+                    <div class="card-desc">
+                      <span>Engine</span>
+                      <p>2000cc</p>
+                    </div>
+                    <div class="card-desc">
+                      <span>Type of fuel</span>
+                      <p>Electric</p>
+                    </div>
+                    <div class="card-desc">
+                      <span>Transmission</span>
+                      <p>Automatic</p>
+                    </div>
+                  </div>
+                  <div class="card-price">
+                    <p>$120000</p>
+                    <a href="car.html">
+                      <button class="btn">Details</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  src="https://images.unsplash.com/photo-1561580125-028ee3bd62eb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+                  alt="Tesla Picuture"
+                  class="card-img"
+                />
+                <div class="card-info">
+                  <p class="card-name">Tesla</p>
+                  <p class="card-model">Model S (new)</p>
+                  <div class="card-descbox">
+                    <div class="card-desc">
+                      <span>Engine</span>
+                      <p>2000cc</p>
+                    </div>
+                    <div class="card-desc">
+                      <span>Type of fuel</span>
+                      <p>Electric</p>
+                    </div>
+                    <div class="card-desc">
+                      <span>Transmission</span>
+                      <p>Automatic</p>
+                    </div>
+                  </div>
+                  <div class="card-price">
+                    <p>$120000</p>
+                    <a href="car.html">
+                      <button class="btn">Details</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  src="https://images.unsplash.com/photo-1561580125-028ee3bd62eb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+                  alt="Tesla Picuture"
+                  class="card-img"
+                />
+                <div class="card-info">
+                  <p class="card-name">Tesla</p>
+                  <p class="card-model">Model S (new)</p>
+                  <div class="card-descbox">
+                    <div class="card-desc">
+                      <span>Engine</span>
+                      <p>2000cc</p>
+                    </div>
+                    <div class="card-desc">
+                      <span>Type of fuel</span>
+                      <p>Electric</p>
+                    </div>
+                    <div class="card-desc">
+                      <span>Transmission</span>
+                      <p>Automatic</p>
+                    </div>
+                  </div>
+                  <div class="card-price">
+                    <p>$120000</p>
+                    <a href="car.html">
+                      <button class="btn">Details</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cards-banner">
+              <div class="banner-sort">
+                <p>Sort by:</p>
+                <img
+                  src="./assets/menu.svg"
+                  alt="Menu icon"
+                  class="banner-sortimg"
+                />
+                <img
+                  src="./assets/group.svg"
+                  alt="Group icon"
+                  class="banner-sortimg"
+                />
+              </div>
+              <img
+                src="./assets/promoCard.png"
+                class="banner-card"
+                alt="Promo Card"
+              />
+              <img
+                src="./assets/contactUs.png"
+                class="banner-card"
+                alt="Contact Card"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Cards -->
+    </main>
+    <!-- End Main -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-box">
+          <img src="./assets/logo.svg" alt="Logo" />
+          <p>
+            OurStudio is a digital agency UI / UX Design and Website Development
+            located in Ohio, United States of America
+          </p>
+          <p class="copyright">
+            This website was created to fulfill Web Technology module’s
+            requirements and does not represent an actual company or service
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+  </body>
+</html>

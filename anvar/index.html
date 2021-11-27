@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car`s Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- Loader -->
+    <div class="loader">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <div class="header">
+          <img src="./assets/logo.svg" alt="Logo" class="header-logo" />
+          <nav class="header-nav">
+            <ul>
+              <li class="header-navlink">
+                <a href="index.html"> Home </a>
+              </li>
+              <li class="header-navlink">
+                <a href="explore.html"> Explore </a>
+              </li>
+              <li class="header-navlink">
+                <a href="showroom.html"> Showroom </a>
+              </li>
+              <li class="header-navlink">
+                <a href="credit.html"> Credit Simulation </a>
+              </li>
+              <li class="header-navlink">
+                <a href="contact.html"> Contact Us </a>
+              </li>
+              <li class="header-navlink">
+                Page <img src="./assets/arrow-down.svg" alt="Arrow Down" />
+              </li>
+            </ul>
+          </nav>
+          <div class="header-login">
+            <div class="header-userphoto"></div>
+            <a href="login.html"> <button class="btn">Login</button> </a>
+            <a
+              href="javascript:void(0);"
+              class="icon-burger"
+              onclick="myFunction()"
+            >
+              ☰
+            </a>
+          </div>
+        </div>
+        <div id="myLinks">
+          <a href="index.html"> Home </a>
+
+          <a href="explore.html"> Explore </a>
+
+          <a href="showroom.html"> Showroom </a>
+
+          <a href="credit.html"> Credit Simulation </a>
+
+          <a href="contact.html"> Contact Us </a>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Main -->
+    <main class="main">
+      <!-- Showcase -->
+      <div class="showcase">
+        <div class="container">
+          <div class="showcase-left">
+            <p class="showcase-name">Luxury Cars</p>
+            <h3>Model SV</h3>
+            <div class="showcase-details">
+              <div class="detail">
+                <p>Mileage</p>
+                <span>555</span>
+              </div>
+              <div class="detail">
+                <p>Engine</p>
+                <span>2000</span>
+              </div>
+              <div class="detail">
+                <p>Fueal Economy</p>
+                <span>8</span>
+              </div>
+            </div>
+            <button class="btn">Buy Now</button>
+          </div>
+          <div class="showcase-right">
+            <img
+              src="https://images.unsplash.com/photo-1611656825455-391f7cc38b9b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=449&q=80"
+              alt="Car Image"
+              id="showcase-photo-1"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1493238792000-8113da705763?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"
+              alt="Car Image"
+              id="showcase-photo-2"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1542282088-fe8426682b8f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y2FyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"
+              alt="Car Image"
+              id="showcase-photo-3"
+            />
+            <ul class="dots">
+              <li id="photo1"></li>
+              <li class="active" id="photo2"></li>
+              <li id="photo3"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- End Showcase -->
+
+      <!-- Filter -->
+      <div class="filter">
+        <div class="container">
+          <select class="dropdown">
+            <option value="">Select Brand</option>
+            <option value="0">Tesla</option>
+            <option value="1">BMW</option>
+            <option value="2">Porsche</option>
+            <option value="3">Ford</option>
+          </select>
+          <select class="dropdown">
+            <option value="">Select Model</option>
+            <option value="0">Sedan</option>
+            <option value="1">Cuv</option>
+            <option value="2">Roadster</option>
+            <option value="3">Cabriolet</option>
+          </select>
+          <button class="btn">Search</button>
+        </div>
+      </div>
+      <!-- End Filter -->
+
+      <!-- About -->
+      <div class="about">
+        <div class="container">
+          <img
+            src="https://images.unsplash.com/photo-1567808291548-fc3ee04dbcf0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80"
+            alt="Car"
+          />
+          <div class="about-text">
+            <h3>Over 10 Years Experiences We Sell Electric Cars</h3>
+            <p class="about-subtext">
+              Develop a website by finding a product identity that has value and
+              branding to become a characteristic of a company.
+            </p>
+            <div class="about-achievements">
+              <div class="about-achievement active">
+                <p>1000 +</p>
+                <span>Cars Sold</span>
+              </div>
+              <div class="about-achievement">
+                <p>235</p>
+                <span>Customers</span>
+              </div>
+              <div class="about-achievement">
+                <p>1100</p>
+                <span>Dealer Review</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End About -->
+
+      <!-- Reasons -->
+      <div class="reasons">
+        <div class="container">
+          <div class="reasons-text">
+            <h3>Why Choose Us?</h3>
+            <p class="reasons-subtext">
+              We will help a client's problems to develop the products they have
+              with high quality
+            </p>
+            <div class="reasons-box">
+              <div class="reason">
+                <div class="icon">
+                  <img src="./assets/analytics-outline.svg" alt="icon" />
+                </div>
+                <div class="reason-text">
+                  <p>More than 10 Years Experiences</p>
+                  <span>
+                    Make the appearance of a mobile application that has quality
+                    and increases user convenience
+                  </span>
+                </div>
+              </div>
+              <div class="reason">
+                <div class="icon">
+                  <img
+                    src="./assets/briefcase-outline.svg"
+                    alt="icon"
+                    class="icon"
+                  />
+                </div>
+                <div class="reason-text">
+                  <p>Trusted by Customers</p>
+                  <span>
+                    Help create a website and redesign it so that it becomes a
+                    website that is more trendy and looks fresh.
+                  </span>
+                </div>
+              </div>
+              <div class="reason">
+                <div class="icon">
+                  <img
+                    src="./assets/cart-outline.svg"
+                    alt="icon"
+                    class="icon"
+                  />
+                </div>
+                <div class="reason-text">
+                  <p>Wide Range of Brand</p>
+                  <span>
+                    Create customizable illustrations with attractive designs
+                    that are made visually through high creativity
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1567808291548-fc3ee04dbcf0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80"
+            alt="Car"
+            class="reasons-img"
+          />
+        </div>
+      </div>
+      <!-- End Reasons -->
+
+      <!-- Brands -->
+      <div class="brands">
+        <div class="container">
+          <h4 class="brands-heading">Our Top Brands</h4>
+          <div class="brands-box">
+            <img src="./assets/brand-1.png" alt="Brand 1" />
+            <img src="./assets/brand-2.png" alt="Brand 2" />
+            <img src="./assets/brand-3.png" alt="Brand 3" />
+            <img src="./assets/brand-4.png" alt="Brand 4" />
+            <img src="./assets/brand-5.png" alt="Brand 5" />
+            <img src="./assets/brand-6.png" alt="Brand 6" />
+          </div>
+        </div>
+      </div>
+      <!-- End Brands -->
+
+      <!-- CTA -->
+      <div class="cta">
+        <div class="container">
+          <h3 class="cta-heading">Subscribe Our News Letter</h3>
+          <p class="cta-subtext">
+            You can read our news letter and get free knowledge
+          </p>
+          <form class="cta-form">
+            <div class="cta-input">
+              <label for="name">Your Name</label>
+              <input type="text" placeholder="Input your name" />
+            </div>
+            <div class="cta-input">
+              <label for="name">Your Email</label>
+              <input type="email" placeholder="Input your email" />
+            </div>
+            <button class="btn">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <!-- END CTA -->
+    </main>
+    <!-- End Main -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-box">
+          <img src="./assets/logo.svg" alt="Logo" />
+          <p>
+            OurStudio is a digital agency UI / UX Design and Website Development
+            located in Ohio, United States of America
+          </p>
+          <p class="copyright">
+            This website was created to fulfill Web Technology module’s
+            requirements and does not represent an actual company or service
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+  </body>
+</html>
