@@ -8,6 +8,8 @@ This application can be found at [Demo](https://00011312.netlify.app). The websi
 
 This website is landing page for car marketplace where users can review car models and calculate average load.
 
+Design for project was taken from open source and free platform.
+
 ## Setting Up Your Local Environment
 
 If you want to open project on local host
